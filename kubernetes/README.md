@@ -18,8 +18,8 @@
      - ephemerel volume - will laste till pod running
 -  Namespaces - segregate the objects/resources 
 - Dployments - manage multiple pods and provides scaling, strategy, and rollback features.
-- Replicationcontroller  It ensure that the correct no. pod replicas are running on the ckuster, uses Equality-based selector.
-- Replicasets -It ensure that the correct no. of pods replicas are running onthe cluster. Using in, notin, exists operator based selector.
+- Replicationcontroller  It ensure that the correct no. pod replicas are running on the cluster, uses Equality-based selector.
+- Replicasets -It ensure that the correct no. of pods replicas are running on the cluster. Using in, notin, exists operator based selector.
 - DaemonSet - To create pod on all nodes / specafic node similar to daemon
 - StatefulSet - will provide unique identities to pods even it restart .
 - Confiigmaps / Secrets - Use to store the credential
