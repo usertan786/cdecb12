@@ -1,0 +1,7 @@
+apiVersion: v1 
+kind: ConfigMap 
+metadata:
+  name: conf 
+data: 
+  APP_COLOR: cyan
+  APP_DATA: prod
