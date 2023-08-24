@@ -16,6 +16,6 @@ spec:
     spec: 
       containers:
       - name: nginx
-        image: tanmaytech/httpd-server:v1
+        image: nginx:latest
         ports:
         - containerPort: 80
